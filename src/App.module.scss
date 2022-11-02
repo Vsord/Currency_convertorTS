@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: darkslategrey;
+}
+
+.App {
+  .appBlock {
+    transform: translate(0px, 130px);
+
+    .appBlockInner {
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+      height: 250px;
+      background-color: slategray;
+      border-radius: 15px;
+
+      @media (max-width: 771px) {
+          width: 80%;
+      }
+
+      @media (max-width: 482px) {
+        width: 90%;
+      }
+
+      @media (max-width: 429px) {
+        width: 100%;
+      }
+
+      @media (max-width: 385px) {
+        height: 300px;
+      }
+    }
+  }
+}
+
